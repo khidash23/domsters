@@ -1,0 +1,120 @@
+
+$Texas-Rose: #ffbb55;
+$Gun-Powder: #444455;
+$Pickled-Bluewood:  #334455
+$Dolphin:#666677;
+$Storm-Gray: #777788;
+$Flax: #eecc88;
+$Tuna: #333344;
+$Cape-Cod: #445555;
+$Slate-Gray: #778899;
+$Steel-Gray:#222233;
+$Almond: #eeddcc;
+$Santas-Gray: #9999aa;
+$Titan-White: #eeeeff;
+$Porsche: #eebb66;
+$Waterloo: #777799;
+$Malta: #bbaa99;
+$Bone: #ddccbb;
+$Coral-Reef: #ccbbaa;
+
+body {
+  color: $Texas-Rose;
+  background-color: $Tuna;
+}
+
+a:link {
+  color: $Cape-Cod;
+  background-color: $Porsche;
+}
+
+a:visited {
+  color: $Pickled-Bluewood;
+  background-color: $Porsche;
+}
+
+a:hover {
+  color: $Dolphin;
+  background-color: $Texas-Rose;
+}
+
+a:active {
+  color: $Storm-Gray;
+  background-color: $Flax;
+}
+
+header {
+  color: $Flax;
+  background-color: $Tuna;
+  border-color: $Dolphin;
+}
+
+nav {
+  color: $Cape-Cod;
+  background-color: $Slate-Gray;
+  border-color: $Dolphin;
+}
+
+.content {
+  color: $Steel-Gray;
+  background-color: $Almond;
+  border-color: $Dolphin;
+}
+
+nav ul {
+  border-color: $Santas-Gray;
+}
+
+nav a:link,
+nav a:visited {
+  color: $Titan-White;
+  background-color: transparent;
+  border-color: $Santas-Gray;
+}
+
+nav a:hover {
+  color: $Cape-Cod;
+  background-color: $Porsche;
+}
+
+nav a:active {
+  color: $Dolphin;
+  background-color: $Flax;
+}
+
+nav a.here:link,
+nav a.here:visited,
+nav a.here:hover,
+nav a.here:active {
+  color: $Titan-White;
+  background-color: $Waterloo;
+}
+
+.content img {
+  border-color: $Malta;
+  outline-color: $Bone;
+}
+
+#imagegallery a {
+  background-color: transparent;
+}
+
+th {
+  color: $Almond;
+  background-color: $Cape-Cod;
+}
+
+tr td {
+  color: $Steel-Gray;
+  background-color: $Porsche;
+}
+
+tr.odd td {
+  color: $Steel-Gray;
+  background-color: $Flax;
+}
+
+tr.highlight td {
+  color: $Steel-Gray;
+  background-color: $Coral-Reef;
+}
